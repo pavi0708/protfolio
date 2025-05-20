@@ -71,7 +71,7 @@ export default class Main extends Component {
           />
           <Route
             path="*"
-            render={(props) => <Error404 {...props} theme={this.props.theme} />}
+            render={<Home {...props} theme={this.props.theme} />}
           />
         </Switch>
       </BrowserRouter>
