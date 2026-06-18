@@ -7,10 +7,10 @@ import Header from "../../components/header/Header";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
  import {
-//   greeting,
+ greeting,
   projectsHeader,
-//   publicationsHeader,
-//   publications,
+ publicationsHeader,
+   publications,
 } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
