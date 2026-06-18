@@ -6,12 +6,12 @@ import Header from "../../components/header/Header";
 // import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
-// import {
+ import {
 //   greeting,
-//   projectsHeader,
+  projectsHeader,
 //   publicationsHeader,
 //   publications,
-// } from "../../portfolio.js";
+} from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
